@@ -10,16 +10,22 @@
     <div class="container">
         <!-- News Card -->
         <div class="card">
-            <img src="https://via.placeholder.com/300" alt="News Image" class="news-image" id="news1">
+            <img src="https://via.placeholder.com/300" alt="News Image" class="news-image" data-desc="desc1">
             <h2 class="news-header">News Header 1</h2>
-            <p class="news-description" id="desc1">This is the description of the news. Click the image to toggle the description.</p>
         </div>
         <div class="card">
-            <img src="https://via.placeholder.com/300" alt="News Image" class="news-image" id="news2">
+            <img src="https://via.placeholder.com/300" alt="News Image" class="news-image" data-desc="desc2">
             <h2 class="news-header">News Header 2</h2>
-            <p class="news-description" id="desc2">This is the description of the news. Click the image to toggle the description.</p>
         </div>
         <!-- Add more cards as needed -->
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <p id="popup-description"></p>
+        </div>
     </div>
 
     <script src="script.js"></script>
